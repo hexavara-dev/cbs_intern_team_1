@@ -29,7 +29,7 @@ services:
       PORT: 8080
       HOST: 0.0.0.0
       JWT_SECRET: ${JWT_SECRET}
-      DB_HOST: postgres
+      DB_HOST: db
       DB_PORT: 5432
       DB_USERNAME: ${DB_USERNAME}
       DB_PASSWORD: ${DB_PASSWORD}
