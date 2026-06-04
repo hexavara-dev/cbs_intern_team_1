@@ -1,0 +1,1 @@
+export const DUMMY_UNIT_OPTIONS = ["m", "m2", "m3", "kg", "ton", "ls"];

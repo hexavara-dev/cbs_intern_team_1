@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "commonjs",
+		"baseUrl": "./src",
+		"paths": {
+			"@/*": ["*"]
+		},
+		"moduleResolution": "Node",
+		"outDir": "dist",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"types": ["vitest/globals", "node"]
+	},
+	"include": ["src/**/*", "db/**/*"],
+	"exclude": ["node_modules"]
+}
